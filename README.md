@@ -1,5 +1,10 @@
 # DegronID 
 
+
+
+[![DOI](https://zenodo.org/badge/585416651.svg)](https://zenodo.org/badge/latestdoi/585416651)
+
+
 This repository contains original code used in (paper title) Zhang et al. 2023 to score similarity between finely mapped degron sequences. 
 
 More specifically, `DegronID` takes as input (1) a position specific scoring matrix (PSSM) describing saturation mutagenesis of a degron peptide motif and (2) a database of amino acid sequences of interest. For each amino acid sequence in the query database, DegronID generates a numeric score representing how similar or different the sequences is from the degron motif described by the PSSM. The details of this scoring are described in Zhang et al.
