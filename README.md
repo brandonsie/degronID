@@ -1,13 +1,13 @@
-# DegronID 
+# EpitopeID (DegronID) 
 
 
 
 [![DOI](https://zenodo.org/badge/585416651.svg)](https://zenodo.org/badge/latestdoi/585416651)
 
 
-This repository contains original code used in (paper title) Zhang et al. 2023 to score similarity between finely mapped degron sequences. 
+This repository contains original code used in Kohlgruber et al. and Zhang et al. (Elucidation of E3 ubiquitin ligase specificity through proteome-wide internal degron mapping Mol Cell 2023) to score similarity between finely mapped epitope sequences. 
 
-More specifically, `DegronID` takes as input (1) a position specific scoring matrix (PSSM) describing saturation mutagenesis of a degron peptide motif and (2) a database of amino acid sequences of interest. For each amino acid sequence in the query database, DegronID generates a numeric score representing how similar or different the sequences is from the degron motif described by the PSSM. The details of this scoring are described in Zhang et al.
+More specifically, `EpitopeID` takes as input (1) a position specific scoring matrix (PSSM) describing saturation mutagenesis of a degron peptide motif and (2) a database of amino acid sequences of interest. For each amino acid sequence in the query database, DegronID generates a numeric score representing how similar or different the sequences is from the degron motif described by the PSSM. The details of this scoring are described in Zhang et al.
 
 In our experience, degrons that are similar to each other will tend to overlap with each other in which query sequences from the database are scored favorably. Thus, the output from DegronID can be harnessed to cluster degron motifs into related groups. Illustration of the clustering result from Zhang et al. and related visualizations are accessible at https://brandonsie.shinyapps.io/DegronID/.
 
